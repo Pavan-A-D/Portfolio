@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#headertext">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="headertext">
+               <div class="head"> <p>Web Developer</p>
+                <h1>Hi, I'm <span>Pavan A Durgadasimi</span></h1></div>
+                <div class="sticker">  <img src="images/sticker.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="c1">
+                    <img src="images/sticker.png" alt="">
+                </div> -->
+                <div class="c2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I am Pavan, a computer science student deeply passionate about web development and technology.<br>
+
+                        <!-- 👉🏻I am currently working with TECHHUB team as a developer. <br> -->
+                        
+                        
+                        
+                        👉🏻I am constantly seeking to expand my knowledge and skills.<br>
+                        
+                        👉🏻With a keen interest in discovering new opportunities and exploring new things.<br>
+                        
+                        👉🏻I thrive in dynamic environments where I can collaborate with others, share ideas and contribute to exciting projects.<br>
+                        <br>
+                        With proactive attitude and a thirst for knowledge,<br>
+                        I am committed to continuous learning and growth, both personally and professionally.<br>
+                        
+                        Would love to work and grow together!</p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                        <p class="tablinks" onclick="opentab('certification')">Certification</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+
+                            <div class="ski"><span>HTML</span><img src="images/html.png"></div>
+                            <div class="ski"><span>CSS</span><img src="images/css.png"></div>
+                            <div class="ski"><span>JavaScript</span><img src="images/js.png"></div>
+                            <div class="ski"><span>React</span><img src="images/react.png"></div>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li>Web Developer</li>
+                            <!-- <li><span>UI/UX</span><br>Design Web interfaces</li>
+                            <li><span>UI/UX</span><br>Design Web interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2010-20  ||  Primary and High School</span><br>Om public School,Ranebennur</li>
+                            <li><span>2021-22  ||  PUC</span><br>RTES PU College</li>
+                            <li><span>2023 onwards  ||  BE. CSE</span><br> Bapuji Institute of Engineering and Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="certification">
+                        <div style="padding:20px 0;">
+                            <p>Professional certifications and courses I've completed.Click on text to see certificate.</p>
+                            <ul class="cert-list">
+                                <li>
+                                    <span class="cert-title" onclick="openCert('images/cert/dsa.jpg')">Data structures and Algorithms</span>
+                                </li>
+                                <li>
+                                    <span class="cert-title" onclick="openCert('images/cert/acc.png')">Software Engineering job simulation (Accenture) </span>
+                                </li>
+                                <li>
+                                    <span class="cert-title" onclick="openCert('images/cert/ai.png')">Oracle Cloud infrastructure AI foundations</span>
+                                </li>
+                                <li>
+                                    <span class="cert-title" onclick="openCert('images/cert/react.png')">React web developer</span>
+                                </li>
+                                <li>
+                                    <span class="cert-title" onclick="openCert('images/cert/mongodb.png')">MongoDB Python developer path</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------contact----------------------->
+    <div class="contact">
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>  pavandurgadasimi@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  6363714728</p>
+                    <div class="socialicons">
+
+                        <!-- <a href="https://discord.com/users/897857780944347188"><i class="fa-brands fa-discord"></i></a> -->
+                        <a href="https://github.com/Pavan-A-D"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pavan-a-durgadasimi-113b45381/"><i class="fa-brands fa-linkedin"></i></a>
+                        <!-- <a href="https://x.com/BharathGP21?t=Q33a708g4fqwaWT4AMPMYA&s=09"><i class="fa-brands fa-twitter"></i></a> -->
+                    </div>
+    
+                </div>
+               
+                <div class="contactright">
+                    <div class="contact-card">
+                        <h2>Contact</h2>
+                        <p>You can reach me via the email or phone shown on the left, or download my CV below.</p>
+                        <a href="Pavan_cv.pdf" download class="button btn2">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certification modal -->
+    <div id="certModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="certTitle">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <img id="certImage" src="" alt="Certification image">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
